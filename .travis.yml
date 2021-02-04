@@ -9,9 +9,6 @@ cache:
     - "node_modules"
 install:
   - npm install
-script:
-  - npm run lint
-  - npm test
 deploy:
   - provider: script
     skip_cleanup: true
